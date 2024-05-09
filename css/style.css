@@ -269,7 +269,12 @@ body {
   height: 390px;
 }
 .sec2 .big-box .box-txt{
-  margin: 20px 0px;
+  padding: 20px 0px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 100%;
+
 }
 .sec2 .big-box .box-txt h2{
   font-size: 18px;
@@ -781,7 +786,9 @@ margin-bottom: 12px;
     height: 240px;
     width: 240px;
   } 
-
+  .sec2 .big-box .box-txt h2 {
+    font-size: 16px;
+  }
 }
 /* ------------------------------------- */
 
@@ -803,9 +810,7 @@ margin-bottom: 12px;
 .oneSwiper .swiper-slide{
   height: 325px !important;
 }
-.sec2 .big-box .box-txt h2 {
-  font-size: 16px;
-}
+
 .sec2 .big-box .box-txt p {
   margin: 10px 0px;
   color: #797979;
@@ -969,15 +974,18 @@ margin-bottom: 8px;
 .container{
   margin: 60px 20px;
 }
+.top-box{
+  align-items: flex-start;
+}
 .header-area .main-menu{
   display: none;
 }
 .header-area .header-logo{
     width: auto;
     position: absolute;
-    top: 0;
-    left: 0;
-    transform: translate(100%, 15%);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
 .mySwiper .swiper-slide.slide1{
     background: url(../image/bannerm-1.jpg) no-repeat;
@@ -993,7 +1001,7 @@ margin-bottom: 8px;
     background-size: cover;
 }
 .mySwiper .swiper-slide .box {
-  font-size: 20px;
+  font-size: 18px;
   bottom: 12%;
   left: 10%;
 }
@@ -1020,7 +1028,7 @@ height: 50px;
   margin: 10px 0px;
 }
 .sec2 .box {
-  width: 200px;
+  width: 180px;
   height: 350px;
 }
 .sec2 .big-box .box-img{
@@ -1108,7 +1116,7 @@ flex-wrap: wrap;
   align-items: flex-start;
 }
 .footer .footer-t .logo{
-  width: 240px;
+  width: 200px;
   height:auto;
   margin: 20px 0px 0px 0px;
 }
@@ -1124,10 +1132,10 @@ flex-wrap: wrap;
 .sec7 .popup-box .m-arrow{
   opacity: 1;
   position: relative;
-  right: -25%;
+  right: -15%;
 }
 .sec7 .popup-box .m-arrow.fa{
-  right: -20%;
+  right: -10%;
 }
 
 .footer-t .box p{
@@ -1137,7 +1145,8 @@ flex-wrap: wrap;
   border-bottom-color: #ffffff;
 }
 .footer .footer-cc {
-  font-size: 16px;
+  font-size: 14px;
+  margin: 20px 0;
 }
 .footer .footer-c p{
   color: #c8c8c8;
