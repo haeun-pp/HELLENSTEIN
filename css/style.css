@@ -688,6 +688,8 @@ body {
   height: 120px;
   animation: event 40s linear infinite;
   object-fit: cover;
+
+  overflow: hidden;
 }
 @keyframes event{
    0%{
@@ -981,7 +983,6 @@ margin-bottom: 8px;
   display: none;
 }
 .header-area .header-logo{
-    width: auto;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -1058,8 +1059,6 @@ flex-wrap: wrap;
 .sec3 .top-box {
   width: 100%;
 }
-
-
 .sec3 .swiper-horizontal>.swiper-pagination-progressbar, .swiper-pagination-progressbar.swiper-pagination-horizontal, .swiper-pagination-progressbar.swiper-pagination-vertical.swiper-pagination-progressbar-opposite, .swiper-vertical>.swiper-pagination-progressbar.swiper-pagination-progressbar-opposite {
   width: 90% !important;
 }
