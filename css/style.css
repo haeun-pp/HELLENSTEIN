@@ -986,8 +986,7 @@ margin-bottom: 8px;
   display: none;
 }
 .header-area{
-  z-index: 99999;
-  width: 100% !important;
+  width: 100vw;
 }
 .header-area .header-logo{
     position: absolute;
@@ -1167,6 +1166,6 @@ flex-wrap: wrap;
 }
 @media (max-width:375px){
   .header-area{
-    width: 100%;
+    width: 100vw;
   }
 }
