@@ -1033,6 +1033,10 @@ height: 50px;
   width: 180px;
   height: 350px;
 }
+.sec2 .big-box {
+  padding: 5px;
+  grid-column-gap: 10px
+}
 .sec2 .big-box .box-img{
   height: 200px;
 }    
