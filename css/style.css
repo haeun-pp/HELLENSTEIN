@@ -579,9 +579,6 @@ body {
   color: #fff;
   font-size: 28px;
 }
-
-
-
 /* --------------------------------------------------------------------------------- */
 /* sec6  */
 .sec6 .life-container{
@@ -685,14 +682,15 @@ body {
   margin-bottom: 8px;
 }
 /* ------------------------------------------------------- */
+.ani-txt{
+  overflow: hidden;
+}
 .txt-event{
   display: flex;
   width: 4200px;
   height: 120px;
   animation: event 40s linear infinite;
   object-fit: cover;
-
-  overflow: hidden;
 }
 @keyframes event{
    0%{
@@ -743,8 +741,6 @@ margin-bottom: 12px;
 .footer .footer-b{
   margin: 40px 0;
 }
-
-
 /* ------------------------------------------------------------------------- */
 /* 반응형 */
 @media (max-width:1800px){
@@ -796,7 +792,6 @@ margin-bottom: 12px;
   }
 }
 /* ------------------------------------- */
-
 @media (max-width:1400px){
   .container{
     margin: 100px 120px;
@@ -872,7 +867,6 @@ margin-bottom: 8px;
 .sec6 .life.life-l .box {
   width: 400px;
   height: 420px;
-
 }
 }
 /* ------------------------------------- */
@@ -1066,8 +1060,6 @@ flex-wrap: wrap;
 .sec3 .top-box {
   width: 100%;
 }
-
-
 .sec3 .swiper-horizontal>.swiper-pagination-progressbar, .swiper-pagination-progressbar.swiper-pagination-horizontal, .swiper-pagination-progressbar.swiper-pagination-vertical.swiper-pagination-progressbar-opposite, .swiper-vertical>.swiper-pagination-progressbar.swiper-pagination-progressbar-opposite {
   width: 90% !important;
 }
